@@ -28,15 +28,15 @@ OWM addendum:
 
 For me to save keystrokes in a bash session:
 
-0. Make a repository on GitHub. This could be the SWC repository I'm teaching
-from. E.g. testScript
-1. Make sure that the current directory is on the `PATH`:
+* Make a repository on GitHub. This could be the SWC repository I'm teaching
+from. E.g. `testScript`.
+* Make sure that the current directory is on the `PATH`:
 ```
 export PATH=.:$PATH
 ```
-2. To save keystrokes for a bash session with a 10-second delay:
+* To save keystrokes for a bash session with a 10-second delay:
 ```
 recordsession.sh git@github.com:cfgauss/testScript.git bash_lesson 10
 ```
-3. Type into shell as normal. The history will sync every 10 seconds.
-4. Have students reference the URL: `https://cfgauss.github.io/testScript/bash_lesson.html`
+* Type into shell as normal. The history will sync every 10 seconds.
+* Have students reference the URL: `https://cfgauss.github.io/testScript/bash_lesson.html`
