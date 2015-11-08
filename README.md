@@ -39,4 +39,4 @@ export PATH=.:$PATH
 recordsession.sh git@github.com:cfgauss/testScript.git bash_lesson 10
 ```
 3. Type into shell as normal. The history will sync every 10 seconds.
-4. Have students reference the URL: `cfgauss.github.io/testScript/bash_lesson.html`
+4. Have students reference the URL: `https://cfgauss.github.io/testScript/bash_lesson.html`
