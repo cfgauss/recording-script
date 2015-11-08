@@ -34,9 +34,9 @@ from. E.g. testScript
 ```
 export PATH=.:$PATH
 ```
-1. To save keystrokes for a bash session with a 10-second delay:
+2. To save keystrokes for a bash session with a 10-second delay:
 ```
 recordsession.sh git@github.com:cfgauss/testScript.git bash_lesson 10
 ```
-2. Type into shell as normal. The history will sync every 10 seconds.
-3. Have students reference the URL: `cfgauss.github.io/testScript/bash_lesson.html`
+3. Type into shell as normal. The history will sync every 10 seconds.
+4. Have students reference the URL: `cfgauss.github.io/testScript/bash_lesson.html`
