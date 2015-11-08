@@ -40,3 +40,6 @@ recordsession.sh git@github.com:cfgauss/testScript.git bash_lesson 10
 ```
 * Type into shell as normal. The history will sync every 10 seconds.
 * Have students reference the URL: `https://cfgauss.github.io/testScript/bash_lesson.html`
+
+Note that this page automatically refreshes as it syncs! Students don't have
+to manually refresh it within their browser.
