@@ -507,7 +507,7 @@ GeoIP <span class="bold"><span class="f1">Country</span></span> Edition: CN, Chi
 GeoIP <span class="bold"><span class="f1">Country</span></span> Edition: CN, China                                                                                
 GeoIP <span class="bold"><span class="f1">Country</span></span> Edition: KR, Korea, Republic of                                                                   
 GeoIP <span class="bold"><span class="f1">Country</span></span> Edition: US, United States                                                                        
-| grep &quot;Country&quot;in $(cut -d &quot; &quot; -f 2 /etc/hosts.deny); do geoiplookup $ip; done |
+| grep &quot;Country&quot;|cut -d &quot; &quot; - &quot; -f 2 /etc/hosts.deny); do geoiplookup $ip; done |
 <h2 id="end">end</h2></pre>
 </body>
 </html>
